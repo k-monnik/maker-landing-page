@@ -15,7 +15,10 @@ module.exports = {
         'white': '#FFFFFF',
         'navy': '#080C20',
         'pink': '#FF2965',
-      }
+      },
+      fontFamily: {
+        Manrope: ['Manrope', 'sans-serif'],
+      },
     },
   },
   plugins: [],
