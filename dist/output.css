@@ -553,17 +553,50 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.col-span-2{
+  grid-column: span 2 / span 2;
+}
+
+.mx-auto{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .flex{
   display: flex;
+}
+
+.grid{
+  display: grid;
+}
+
+.transform{
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.grid-cols-1{
+  grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.items-center{
+  align-items: center;
 }
 
 .justify-center{
   justify-content: center;
 }
 
+.justify-self-center{
+  justify-self: center;
+}
+
 .bg-navy{
   --tw-bg-opacity: 1;
   background-color: rgb(8 12 32 / var(--tw-bg-opacity));
+}
+
+.bg-\[url\(\'\/starter-code\/assets\/bg-hero-squiggle\.svg\'\)\]{
+  background-image: url('/starter-code/assets/bg-hero-squiggle.svg');
 }
 
 .px-8{
@@ -581,6 +614,45 @@ video {
   padding-bottom: 4rem;
 }
 
+.px-4{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.px-12{
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-14{
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+}
+
+.px-24{
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-8{
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.py-4{
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.text-center{
+  text-align: center;
+}
+
 .font-Manrope{
   font-family: Manrope, sans-serif;
 }
@@ -590,12 +662,72 @@ video {
   line-height: 1;
 }
 
+.text-3xl{
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-6xl{
+  font-size: 3.75rem;
+  line-height: 1;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-sm{
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-extrabold{
   font-weight: 800;
 }
 
 .font-medium{
   font-weight: 500;
+}
+
+.font-bold{
+  font-weight: 700;
+}
+
+.leading-loose{
+  line-height: 2;
+}
+
+.leading-relaxed{
+  line-height: 1.625;
+}
+
+.leading-normal{
+  line-height: 1.5;
+}
+
+.leading-snug{
+  line-height: 1.375;
+}
+
+.leading-tight{
+  line-height: 1.25;
+}
+
+.leading-6{
+  line-height: 1.5rem;
+}
+
+.leading-8{
+  line-height: 2rem;
+}
+
+.leading-10{
+  line-height: 2.5rem;
+}
+
+.leading-none{
+  line-height: 1;
 }
 
 .text-green-500{
@@ -608,9 +740,35 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.text-teal{
+  --tw-text-opacity: 1;
+  color: rgb(62 233 229 / var(--tw-text-opacity));
+}
+
+.text-grey{
+  --tw-text-opacity: 1;
+  color: rgb(119 127 152 / var(--tw-text-opacity));
+}
+
 @media (min-width: 768px){
+  .md\:grid-cols-3{
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
   .md\:justify-start{
     justify-content: flex-start;
+  }
+
+  .md\:gap-8{
+    gap: 2rem;
+  }
+
+  .md\:bg-\[url\(\'\/starter-code\/assets\/bg-hero-squiggle\.svg\'\)\]{
+    background-image: url('/starter-code/assets/bg-hero-squiggle.svg');
   }
 
   .md\:px-14{
@@ -626,5 +784,9 @@ video {
   .md\:px-36{
     padding-left: 9rem;
     padding-right: 9rem;
+  }
+
+  .md\:pt-24{
+    padding-top: 6rem;
   }
 }
