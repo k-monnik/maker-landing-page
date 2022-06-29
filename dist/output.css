@@ -562,6 +562,10 @@ video {
   margin-right: auto;
 }
 
+.mt-16{
+  margin-top: 4rem;
+}
+
 .flex{
   display: flex;
 }
@@ -578,6 +582,18 @@ video {
   height: 164px;
 }
 
+.h-40{
+  height: 10rem;
+}
+
+.h-44{
+  height: 11rem;
+}
+
+.h-32{
+  height: 8rem;
+}
+
 .w-6{
   width: 1.5rem;
 }
@@ -588,6 +604,14 @@ video {
 
 .w-\[255px\]{
   width: 255px;
+}
+
+.w-40{
+  width: 10rem;
+}
+
+.w-64{
+  width: 16rem;
 }
 
 .transform{
@@ -630,6 +654,14 @@ video {
   border-radius: 30px;
 }
 
+.rounded-\[40px\]{
+  border-radius: 40px;
+}
+
+.rounded-\[44x\]{
+  border-radius: 44x;
+}
+
 .bg-navy{
   --tw-bg-opacity: 1;
   background-color: rgb(8 12 32 / var(--tw-bg-opacity));
@@ -659,6 +691,10 @@ video {
 
 .p-6{
   padding: 1.5rem;
+}
+
+.p-10{
+  padding: 2.5rem;
 }
 
 .px-8{
@@ -721,6 +757,30 @@ video {
 
 .pt-4{
   padding-top: 1rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
+.pt-7{
+  padding-top: 1.75rem;
+}
+
+.pt-6{
+  padding-top: 1.5rem;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
+}
+
+.pt-12{
+  padding-top: 3rem;
+}
+
+.pt-10{
+  padding-top: 2.5rem;
 }
 
 .text-center{
@@ -842,6 +902,10 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:m-24{
+    margin: 6rem;
+  }
+
   .md\:grid-cols-3{
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -860,6 +924,22 @@ video {
 
   .md\:gap-16{
     gap: 4rem;
+  }
+
+  .md\:gap-24{
+    gap: 6rem;
+  }
+
+  .md\:gap-36{
+    gap: 9rem;
+  }
+
+  .md\:gap-48{
+    gap: 12rem;
+  }
+
+  .md\:gap-60{
+    gap: 15rem;
   }
 
   .md\:bg-\[url\(\'\/starter-code\/assets\/bg-hero-squiggle\.svg\'\)\]{
@@ -887,7 +967,51 @@ video {
 }
 
 @media (min-width: 1440px){
+  .lg\:m-24{
+    margin: 6rem;
+  }
+
+  .lg\:h-96{
+    height: 24rem;
+  }
+
+  .lg\:max-w-\[1110px\]{
+    max-width: 1110px;
+  }
+
   .lg\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .lg\:gap-60{
+    gap: 15rem;
+  }
+
+  .lg\:gap-48{
+    gap: 12rem;
+  }
+
+  .lg\:gap-36{
+    gap: 9rem;
+  }
+
+  .lg\:gap-24{
+    gap: 6rem;
+  }
+
+  .lg\:gap-20{
+    gap: 5rem;
+  }
+
+  .lg\:gap-16{
+    gap: 4rem;
+  }
+
+  .lg\:gap-12{
+    gap: 3rem;
+  }
+
+  .lg\:gap-8{
+    gap: 2rem;
   }
 }
