@@ -224,13 +224,16 @@
 
   <div class="text-white mx-auto my-48 md:bg-[url('/starter-code/assets/bg-footer-squiggle.svg')]">
     <p class="text-[32px] font-extrabold text-center pb-6 pt-24">Get notified when we launch</p>
-    <form>
+    <form novalidate>
       <label for="email"></label>
       <div class="mx-auto gap-4 flex justify-center">
         <input type="email" id="email" placeholder="Email address" required
-          class="bg-ocean pr-24 pl-4 py-3 rounded-full text-white text-sm font-extrabold text-left">
-        <button class="px-6 py-3 bg-teal text-ocean font-extrabold text-sm rounded-full">Get notified</button>
+          class="bg-ocean pr-24 pl-4 py-3 rounded-full placeholder-white/40 text-sm font-extrabold text-left hover:focus:ring-teal hover:focus:ring-2 hover:focus:text-white valid:ring-teal  invalid:ring-pink">
+        <button
+          class="px-6 py-3 bg-teal text-ocean font-extrabold text-sm rounded-full hover:bg-navy hover:text-white hover:ring-teal hover:ring-2">Get
+          notified</button>
       </div>
+      <p class="text-pink text-xs text-center pt-3 pr-36">Oops! That doesn't look like an email address.</p>
 
     </form>
 
@@ -241,6 +244,9 @@
     </p>
   </footer>
 
+  <script>
+
+  </script>
 </body>
 
 </html>
