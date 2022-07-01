@@ -584,12 +584,20 @@ video {
   margin-bottom: -2rem;
 }
 
+.inline{
+  display: inline;
+}
+
 .flex{
   display: flex;
 }
 
 .grid{
   display: grid;
+}
+
+.hidden{
+  display: none;
 }
 
 .h-\[164px\]{
