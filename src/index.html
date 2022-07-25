@@ -22,7 +22,15 @@
   <!-- HERO START -->
 
   <div class="grid grid-cols-1 md:grid-cols-4 md:gap-8">
-    <div>
+
+    <!-- MOBILE HERO ONLY -->
+    <div class="block md:hidden">
+      <img src="/starter-code/assets/illustration-hero-mobile.png" alt="" />
+    </div>
+
+    <!-- TABLET/DESKTOP HERO IMG -->
+
+    <div class="hidden md:block">
       <img src="/starter-code/assets/illustration-hero-left.svg" alt="" />
     </div>
     <div class="text-white col-span-2 mx-auto md:bg-[url('/starter-code/assets/bg-hero-squiggle.svg')]">
@@ -40,7 +48,7 @@
       </div>
 
     </div>
-    <div>
+    <div class="hidden md:block">
       <img src="/starter-code/assets/illustration-hero-right.svg" alt="" />
     </div>
   </div>

@@ -553,6 +553,14 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.visible{
+  visibility: visible;
+}
+
+.invisible{
+  visibility: hidden;
+}
+
 .col-span-2{
   grid-column: span 2 / span 2;
 }
@@ -582,6 +590,10 @@ video {
 
 .-mb-8{
   margin-bottom: -2rem;
+}
+
+.block{
+  display: block;
 }
 
 .inline{
@@ -917,6 +929,22 @@ video {
 }
 
 @media (min-width: 768px){
+  .md\:visible{
+    visibility: visible;
+  }
+
+  .md\:invisible{
+    visibility: hidden;
+  }
+
+  .md\:block{
+    display: block;
+  }
+
+  .md\:hidden{
+    display: none;
+  }
+
   .md\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
   }
