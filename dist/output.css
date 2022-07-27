@@ -592,6 +592,14 @@ video {
   margin-bottom: -2rem;
 }
 
+.mb-36{
+  margin-bottom: 9rem;
+}
+
+.mt-36{
+  margin-top: 9rem;
+}
+
 .block{
   display: block;
 }
@@ -837,6 +845,10 @@ video {
 
 .pt-4{
   padding-top: 1rem;
+}
+
+.pb-36{
+  padding-bottom: 9rem;
 }
 
 .text-left{
@@ -1127,6 +1139,10 @@ video {
 
   .lg\:max-w-\[1110px\]{
     max-width: 1110px;
+  }
+
+  .lg\:grid-cols-4{
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .lg\:items-center{
