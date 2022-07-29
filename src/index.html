@@ -255,20 +255,27 @@
   <!-- GET NOTIFIED START -->
 
   <div class="text-white mx-auto my-48 md:bg-[url('/starter-code/assets/bg-footer-squiggle.svg')]">
-    <p class="text-[32px] font-extrabold text-center pb-6 pt-24">Get notified when we launch</p>
+    <p
+      class="bg-[url('/starter-code/assets/bg-footer-squiggle.svg')] bg-contain bg-no-repeat bg-center md:bg-none text-2xl lg:text-[32px] font-extrabold text-center pb-12 md:pb-6 pt-24">
+      Get notified when <br class="md:hidden">we
+      launch</br> </p>
+
     <form novalidate action="#">
       <label for="email"></label>
-      <div class="mx-auto gap-4 flex justify-center">
+      <div class="mx-auto gap-4 flex flex-col md:flex-row justify-center">
         <input type="email" id="email" placeholder="Email address" required
-          class="bg-ocean pr-24 pl-4 py-3 rounded-full placeholder-white/40 text-sm font-extrabold text-left hover:focus:ring-teal hover:focus:ring-2 hover:focus:text-white valid:ring-teal  invalid:ring-pink">
+          class="bg-ocean mx-auto md:mx-0 pr-24 pl-4 py-3 rounded-full placeholder-white/40 text-sm font-extrabold text-left hover:focus:ring-teal hover:focus:ring-2 hover:focus:text-white valid:ring-teal  invalid:ring-pink">
         <button
-          class="px-6 py-3 bg-teal text-ocean font-extrabold text-sm rounded-full hover:bg-navy hover:text-white hover:ring-teal hover:ring-2"
+          class="mx-auto md:mx-0 px-24 md:px-6 py-3 bg-teal text-ocean font-extrabold text-sm rounded-full hover:bg-navy hover:text-white hover:ring-teal hover:ring-2"
           onclick="validateEmail()">Get
           notified</button>
+        <p id="message" class="text-pink text-xs mx-auto text-center pt-3 md:pr-36 hidden">Oops! That doesn't look like
+          an
+          email
+          address.
+        </p>
       </div>
-      <p id="message" class="text-pink text-xs text-center pt-3 pr-36 hidden">Oops! That doesn't look like an email
-        address.
-      </p>
+
 
     </form>
 
