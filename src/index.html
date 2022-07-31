@@ -260,21 +260,22 @@
       Get notified when <br class="md:hidden">we
       launch</br> </p>
 
-    <form novalidate action="#">
+    <form novalidate action="#" id="registerEmail">
       <label for="email"></label>
       <div class="mx-auto gap-4 flex flex-col md:flex-row justify-center">
-        <input type="email" id="email" placeholder="Email address" required
-          class="bg-ocean mx-auto md:mx-0 pr-24 pl-4 py-3 rounded-full placeholder-white/40 text-sm font-extrabold text-left hover:focus:ring-teal hover:focus:ring-2 hover:focus:text-white valid:ring-teal  invalid:ring-pink">
-        <button
-          class="mx-auto md:mx-0 px-24 md:px-6 py-3 bg-teal text-ocean font-extrabold text-sm rounded-full hover:bg-navy hover:text-white hover:ring-teal hover:ring-2"
-          onclick="validateEmail()">Get
+        <input type="email" id="email" placeholder="Email address" autocomplete="off" onfocus="this.value=''"
+          class="bg-ocean mx-auto md:mx-0 pr-24 pl-4 py-3 rounded-full placeholder-white/40 text-sm font-extrabold text-left focus:border-teal focus:border-2 hover:text-white valid:border-none invalid:border-pink">
+        <button type="button" id="button"
+          class="mx-auto md:mx-0 px-24 md:px-6 py-3 bg-teal text-ocean font-extrabold text-sm rounded-full hover:bg-navy hover:text-white hover:border-teal hover:border-2"
+          onclick=validateEmail()>Get
           notified</button>
-        <p id="message" class="text-pink text-xs mx-auto text-center pt-3 md:pr-36 hidden">Oops! That doesn't look like
-          an
-          email
-          address.
-        </p>
+
       </div>
+      <p id="message" class="text-pink text-xs mx-auto text-center pt-3 md:pr-36 hidden">Oops! That doesn't look like
+        an
+        email
+        address.
+      </p>
 
 
     </form>
