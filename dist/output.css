@@ -757,6 +757,10 @@ select{
   margin-bottom: -2rem;
 }
 
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
 .block{
   display: block;
 }
@@ -1458,6 +1462,14 @@ select{
     padding-top: 1rem;
   }
 
+  .md\:pt-48{
+    padding-top: 12rem;
+  }
+
+  .md\:pb-96{
+    padding-bottom: 24rem;
+  }
+
   .md\:text-left{
     text-align: left;
   }
@@ -1465,6 +1477,10 @@ select{
   .md\:text-5xl{
     font-size: 3rem;
     line-height: 1;
+  }
+
+  .md\:text-\[32px\]{
+    font-size: 32px;
   }
 
   .md\:font-extrabold{
