@@ -865,6 +865,14 @@ select{
   width: 3.5rem;
 }
 
+.w-full{
+  width: 100%;
+}
+
+.w-80{
+  width: 20rem;
+}
+
 .max-w-\[327px\]{
   max-width: 327px;
 }
@@ -895,6 +903,14 @@ select{
 
 .gap-4{
   gap: 1rem;
+}
+
+.gap-14{
+  gap: 3.5rem;
+}
+
+.gap-10{
+  gap: 2.5rem;
 }
 
 .self-center{
