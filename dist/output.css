@@ -1210,6 +1210,10 @@ select{
     margin-right: 0px;
   }
 
+  .md\:ml-8{
+    margin-left: 2rem;
+  }
+
   .md\:block{
     display: block;
   }
@@ -1242,6 +1246,10 @@ select{
     width: 482px;
   }
 
+  .md\:w-80{
+    width: 20rem;
+  }
+
   .md\:max-w-\[573px\]{
     max-width: 573px;
   }
@@ -1268,6 +1276,18 @@ select{
 
   .md\:gap-16{
     gap: 4rem;
+  }
+
+  .md\:gap-12{
+    gap: 3rem;
+  }
+
+  .md\:gap-6{
+    gap: 1.5rem;
+  }
+
+  .md\:gap-10{
+    gap: 2.5rem;
   }
 
   .md\:bg-\[url\(\'\/starter-code\/assets\/bg-hero-squiggle\.svg\'\)\]{
@@ -1320,6 +1340,26 @@ select{
 
   .md\:pr-36{
     padding-right: 9rem;
+  }
+
+  .md\:pr-24{
+    padding-right: 6rem;
+  }
+
+  .md\:pr-60{
+    padding-right: 15rem;
+  }
+
+  .md\:pr-48{
+    padding-right: 12rem;
+  }
+
+  .md\:pt-5{
+    padding-top: 1.25rem;
+  }
+
+  .md\:pt-4{
+    padding-top: 1rem;
   }
 
   .md\:text-left{
