@@ -1718,6 +1718,34 @@ select{
     margin-bottom: 11rem;
   }
 
+  .lg\:mt-24{
+    margin-top: 6rem;
+  }
+
+  .lg\:mt-36{
+    margin-top: 9rem;
+  }
+
+  .lg\:mt-40{
+    margin-top: 10rem;
+  }
+
+  .lg\:mt-\[154px\]{
+    margin-top: 154px;
+  }
+
+  .lg\:mb-48{
+    margin-bottom: 12rem;
+  }
+
+  .lg\:mb-64{
+    margin-bottom: 16rem;
+  }
+
+  .lg\:mb-72{
+    margin-bottom: 18rem;
+  }
+
   .lg\:flex{
     display: flex;
   }
@@ -1840,6 +1868,18 @@ select{
 
   .lg\:gap-4{
     gap: 1rem;
+  }
+
+  .lg\:gap-2{
+    gap: 0.5rem;
+  }
+
+  .lg\:gap-1{
+    gap: 0.25rem;
+  }
+
+  .lg\:gap-0{
+    gap: 0px;
   }
 
   .lg\:rounded-\[44px\]{
