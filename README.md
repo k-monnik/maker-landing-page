@@ -1,13 +1,22 @@
 #  Maker pre-launch landing page
 
+This is a pre-launch landing page for a digital product called Maker. The design included 3 versions for mobile, tablet, and desktop views.
+
+Users should be able to:
+
+- View the optimal layout depending on their device's screen size
+- See hover states for interactive elements
+- Receive an error message when the form is submitted if the email is not formatted correctly: should show "Oops! That doesn’t look like an email address"
+
 This is a solution to the [Maker pre-launch landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/maker-prelaunch-landing-page-WVZIJtKLd).
 
 ## Table of contents
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
+- [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Useful resources](#useful-resources)
@@ -17,13 +26,6 @@ This is a solution to the [Maker pre-launch landing page challenge on Frontend M
 
 ## Overview
 
-This is a pre-launch landing page for a digital product called Maker. The design included 3 versions for mobile, tablet, and desktop views.
-
-Users should be able to:
-
-- View the optimal layout depending on their device's screen size
-- See hover states for interactive elements
-- Receive an error message when the form is submitted if the email is not formatted correctly: should show "Oops! That doesn’t look like an email address"
 
 ### The challenge
 
@@ -38,7 +40,10 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repo](https://github.com/k-monnik/maker-landing-page)
-- Live Site URL: [Maker - Netlify](https://gregarious-smakager-02166e.netlify.app)
+- Live Site URL: [Maker - Netlify](https://km-maker-landing.netlify.app)
+
+
+## My process
 
 
 ### Built with
