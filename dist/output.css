@@ -1516,20 +1516,28 @@ select{
     padding-left: 0px;
   }
 
-  .lg\:pt-48{
-    padding-top: 12rem;
+  .lg\:pt-40{
+    padding-top: 10rem;
   }
 
   .lg\:pt-0{
     padding-top: 0px;
   }
 
-  .lg\:pt-10{
-    padding-top: 2.5rem;
+  .lg\:pt-12{
+    padding-top: 3rem;
   }
 
   .lg\:pb-24{
     padding-bottom: 6rem;
+  }
+
+  .lg\:pt-32{
+    padding-top: 8rem;
+  }
+
+  .lg\:pt-28{
+    padding-top: 7rem;
   }
 
   .lg\:text-5xl{
