@@ -1426,6 +1426,10 @@ select{
     height: 449px;
   }
 
+  .lg\:h-full{
+    height: 100%;
+  }
+
   .lg\:w-full{
     width: 100%;
   }
